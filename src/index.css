@@ -68,7 +68,7 @@ article {
   flex-direction: column;
   padding: 2rem;
   margin: 1rem;
-  max-width: 300px;
+  max-width: 350px;
   border-radius: 8px;
   box-shadow: 0 4px 8px 2px rgba(77, 77, 77, 0.15);
 }
