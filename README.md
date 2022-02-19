@@ -1,5 +1,22 @@
 # Getting Started with Create React App
 
+> A recipe searching app built using ReactJS and Spoonacular API. Search from over 350000+ recipes and learn how to make them.
+
+# Features
+
+* Search through hundreds of thousands of recipes using advanced filtering and ranking. The results are returned, based on factors like search query, ingredients & nutrition.
+* Learn about the recipe's ingredients, health score, servings, minutes required to cook, etc.
+
+# Screenshots
+
+> Go to /screenshots in this repository to check out screenshots of this web app.
+
+<p float="left">
+<img src="ScreenShot/demo1.png" width="100%"/>
+<img src="ScreenShot/demo2.png" width="100%"/>  
+</p> 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
