@@ -1,21 +1,19 @@
-import React, { useState, useEffect } from 'react';
-import MealList from './Components/MealList';
+import React, { useState, useEffect } from "react";
+import MealList from "./Components/MealList";
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 function App() {
     const [mealData, setMealData] = useState(null);
-    const [receipe, setReceipe] = useState('Chicken');
-    // console.log(API_KEY);
-
+    const [receipe, setReceipe] = useState("Chicken");
     function getMealData() {
-        https: fetch(`https://api.spoonacular.com/recipes/complexSearch?query=${receipe}&apiKey=${API_KEY}&addRecipeInformation=true`)
+        fetch(`https://api.spoonacular.com/recipes/complexSearch?query=${receipe}&apiKey=${API_KEY}&addRecipeInformation=true`)
             .then((response) => response.json())
             .then((data) => {
                 // console.log(data);
                 setMealData(data);
             })
             .catch(() => {
-                console.log('error');
+                console.log("error");
             });
     }
 
